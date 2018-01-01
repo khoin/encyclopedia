@@ -1,0 +1,22 @@
+---
+layout: page
+title: Listing Alphabetically
+---
+
+There are {{ site.posts | size }} entries.
+
+<ul>
+	<!-- https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically 
+	with additional modifications.
+	--> 
+	{%- capture posts -%}
+		{%- for post in site.posts -%}
+		|{{ post.title }}#{{ post.url }}
+		{%- endfor -%}
+	{%- endcapture -%}
+	{%- assign sortedposts = posts | split: '|' | sort -%}
+	{% for post in sortedposts offset:1 %}
+		{% assign postitems = post | split: '#' %}
+		<li><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></li>
+	{% endfor %}
+</ul>

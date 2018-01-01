@@ -1,0 +1,55 @@
+---
+layout: page
+title: Listing By Type
+---
+
+There are 3 types.
+
+<h3>People</h3>
+<p>Human beings, occasionally organic beings.</p>
+
+<ul>
+	<!-- https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically 
+	with additional modifications.
+	--> 
+	{%- capture posts -%}
+		{%- for post in site.categories['people'] -%}
+		|{{ post.title }}#{{ post.url }}
+		{%- endfor -%}
+	{%- endcapture -%}
+	{%- assign sortedposts = posts | split: '|' | sort -%}
+	{% for post in sortedposts offset:1 %}
+		{% assign postitems = post | split: '#' %}
+		<li><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></li>
+	{% endfor %}
+</ul>
+
+<h3>Objects</h3>
+<p>Places, physical things, etc.</p>
+<ul> 
+	{%- capture posts -%}
+		{%- for post in site.categories['objects'] -%}
+		|{{ post.title }}#{{ post.url }}
+		{%- endfor -%}
+	{%- endcapture -%}
+	{%- assign sortedposts = posts | split: '|' | sort -%}
+	{% for post in sortedposts offset:1 %}
+		{% assign postitems = post | split: '#' %}
+		<li><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></li>
+	{% endfor %}
+</ul>
+
+<h3>Concepts</h3>
+<p>Abstract things</p>
+<ul> 
+	{%- capture posts -%}
+		{%- for post in site.categories['concepts'] -%}
+		|{{ post.title }}#{{ post.url }}
+		{%- endfor -%}
+	{%- endcapture -%}
+	{%- assign sortedposts = posts | split: '|' | sort -%}
+	{% for post in sortedposts offset:1 %}
+		{% assign postitems = post | split: '#' %}
+		<li><a href="{{ postitems[1] }}">{{ postitems[0] }}</a></li>
+	{% endfor %}
+</ul>

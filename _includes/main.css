@@ -1,0 +1,28 @@
+body {
+	margin: 1% auto;
+	padding: 10px; max-width: 750px;
+	background: #eee; color: #0a0a0a;
+	font-family: monospace;
+	font-size: 130%;
+}
+
+a {
+	color: blue;
+}
+a:before { content: "["; color: black; }
+a:after  { content: "]"; color: black; }
+
+main {
+	line-height: 1.5em;
+}
+article>header {
+	font-size: 140%; font-weight: bold;
+}
+article>footer, body>footer {
+	font-style: italic; font-size: 90%;
+}
+
+audio { width: 100%; }
+
+h2:before { content: "# "; }
+h3:before { content: "## "; }
