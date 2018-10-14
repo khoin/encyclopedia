@@ -12,4 +12,5 @@ He once played at the University of Washington [where he introduced](https://mus
 
 ## Interwebz
 
-* Lee playing Ravel's Alborada del Gracioso at KING 98.1 [youtube](https://www.youtube.com/watch?v=QRGsm1prcaA)
+* Lee; Maurice Ravel - Alborada del Gracioso on KING 98.1 [youtube](https://www.youtube.com/watch?v=QRGsm1prcaA)
+* Lee; Nikolai Kapustin - Variations Op. 41 [youtube](https://www.youtube.com/watch?v=l84jYtNwrSs)
