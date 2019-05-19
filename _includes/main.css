@@ -1,5 +1,6 @@
 body {
 	margin: 1% auto;
+	box-sizing: border-box;
 	padding: 10px; max-width: 750px;
 	background: #eee; color: #0a0a0a;
 	font-family: monospace;
@@ -26,3 +27,5 @@ audio { width: 100%; }
 
 h2:before { content: "# "; }
 h3:before { content: "## "; }
+h4:before { content: "### "; }
+h5:before { content: "#### "; }
