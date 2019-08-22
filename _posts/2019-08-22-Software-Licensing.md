@@ -1,5 +1,5 @@
 ---
-permalink: sw-licensing
+permalink: software-licensing
 title: Software Licensing
 date: 2019-08-22
 tag: [legal, software]
