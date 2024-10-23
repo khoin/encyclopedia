@@ -2,16 +2,15 @@ body {
 	margin: 1% auto;
 	box-sizing: border-box;
 	padding: 10px; max-width: 750px;
-	background: #eee; color: #0a0a0a;
-	font-family: monospace;
-	font-size: 130%;
+	background: #efefef; color: #010101;
+	font-family: Verdana, sans-serif;
+	font-size: 150%;
+	line-height: 1.5
 }
 
 a {
 	color: blue;
 }
-a:before { content: "["; color: black; }
-a:after  { content: "]"; color: black; }
 
 main {
 	line-height: 1.5em;
@@ -24,6 +23,8 @@ article>footer, body>footer {
 }
 
 audio { width: 100%; }
+
+img { max-width: 100%; }
 
 h2:before { content: "# "; }
 h3:before { content: "## "; }

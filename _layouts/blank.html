@@ -3,10 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Blank</title>
+	<title>{{ page.title }} {%if page.title %}-{% endif %} {{ site.title }}</title>
 	<style type="text/css">
-		html, body { padding: 0; font-family: sans-serif; }
-		body { margin: 3% auto; max-width: 800px; }
+		{% include main.css %}
 	</style>
 </head>
 <body>
