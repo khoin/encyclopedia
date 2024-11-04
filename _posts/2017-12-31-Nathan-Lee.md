@@ -8,7 +8,7 @@ category: people
 
 **Nathan Lee** (b. 2001) is a classical pianist. 
 
-He once played at the University of Washington [where he introduced](https://music.washington.edu/events/2017-10-08/catch-rising-star-nathan-lee-piano) me to the music of [Kapustin](kapustin).
+He once played at the University of Washington [which was when I discovered](https://music.washington.edu/events/2017-10-08/catch-rising-star-nathan-lee-piano) the music of [Kapustin](kapustin).
 
 ## Interwebz
 

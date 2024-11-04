@@ -6,15 +6,14 @@ title: Koi Nil
 
 <style>
 :root {
-	--card-height: 80vh;
+	--card-height: 80%;
 }
 
 .card {
-	width: 100vw;
+	width: 100%;
 	height: var(--card-height); 
 	left: 0;
 	top: 0;
-	position: absolute; 
 	display: flex;
 	align-items: center;
 	padding: 6vh;
@@ -35,7 +34,6 @@ title: Koi Nil
 }
 #t2 a { color: whitesmoke; margin: auto 5pt; }
 
-#tend { height: calc(var(--card-height) * 2); }
 </style>
 
 <div class="card" id="t1">
