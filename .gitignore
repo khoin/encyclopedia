@@ -4,8 +4,6 @@ _site
 
 .jekyll-metadata
 
-_drafts
-
 .*
 !.gitignore
 !.vscode
