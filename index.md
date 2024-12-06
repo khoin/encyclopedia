@@ -5,20 +5,14 @@ title: Koi Nil
 ---
 
 <style>
-:root {
-	--card-height: 80%;
-}
 
 .card {
 	width: 100%;
-	height: var(--card-height); 
-	left: 0;
-	top: 0;
 	display: flex;
 	align-items: center;
-	padding: 6vh;
+	padding: .75em;
 	box-sizing: border-box;
-	font-size: 7vh;
+	font-size: 3.5em;
 	font-style: italic;
 }
 
@@ -28,7 +22,6 @@ title: Koi Nil
 }
 
 #t2 {
-	top: calc(var(--card-height) * 1);
 	background: cadetblue;
 	color:whitesmoke;
 }
