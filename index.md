@@ -34,6 +34,8 @@ title: Koi Nil
 }
 #t2 a { color: whitesmoke; margin: auto 5pt; }
 
+#nan ~ * { display: none; }
+
 </style>
 
 <div class="card" id="t1">
@@ -44,14 +46,19 @@ koi.<br>nil.<br>seattle.<br>wa.<br>us
 	<div>
 	<a href="" onclick="alert('please email me with your inquiry: koi at nil.seattle.wa.us')">résumé</a>
 	<a href="https://www.linkedin.com/in/kpn/">linkedin</a><br>
-	-- -- <br>
+	<span id="hr1">--</span> <span id="hr2">--</span> <br>
 	<a href="https://instagram.com/koi.nil.seattle.wa.us">instagram</a>
 	<a href="https://github.com/khoin">github</a>
 	</div>
 </div>
 
-<div id="tend">&nbsp;
+<div id="nan">&nbsp;
 </div>
+
+<script>
+let ppp = "";
+hr2.onclick = e => { ppp += (ppp & 0x20)? nan.id++ :  "1"; }
+</script>
 
 
 # Notebook
