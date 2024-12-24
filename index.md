@@ -7,12 +7,10 @@ title: Koi Nil
 <style>
 
 .card {
-	width: 100%;
-	display: flex;
-	align-items: center;
+	min-width: 100%;
 	padding: .75em;
 	box-sizing: border-box;
-	font-size: 3.5em;
+	font-size: 3em;
 	font-style: italic;
 }
 
