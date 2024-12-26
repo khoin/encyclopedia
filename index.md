@@ -10,7 +10,7 @@ title: Koi Nil
 	min-width: 100%;
 	padding: .75em;
 	box-sizing: border-box;
-	font-size: 3em;
+	font-size: 2em;
 	font-style: italic;
 }
 
