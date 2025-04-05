@@ -5,21 +5,12 @@ title: Koi Nil
 ---
 
 <style>
-:root {
-	--card-height: 80vh;
-}
 
 .card {
-	width: 100vw;
-	height: var(--card-height); 
-	left: 0;
-	top: 0;
-	position: absolute; 
-	display: flex;
-	align-items: center;
-	padding: 6vh;
+	min-width: 100%;
+	padding: .75em;
 	box-sizing: border-box;
-	font-size: 7vh;
+	font-size: 2em;
 	font-style: italic;
 }
 
@@ -29,13 +20,13 @@ title: Koi Nil
 }
 
 #t2 {
-	top: calc(var(--card-height) * 1);
 	background: cadetblue;
 	color:whitesmoke;
 }
 #t2 a { color: whitesmoke; margin: auto 5pt; }
 
-#tend { height: calc(var(--card-height) * 2); }
+#nan ~ * { display: none; }
+
 </style>
 
 <div class="card" id="t1">
@@ -46,14 +37,19 @@ koi.<br>nil.<br>seattle.<br>wa.<br>us
 	<div>
 	<a href="" onclick="alert('please email me with your inquiry: koi at nil.seattle.wa.us')">résumé</a>
 	<a href="https://www.linkedin.com/in/kpn/">linkedin</a><br>
-	-- -- <br>
+	<span id="hr1">--</span> <span id="hr2">--</span> <br>
 	<a href="https://instagram.com/koi.nil.seattle.wa.us">instagram</a>
 	<a href="https://github.com/khoin">github</a>
 	</div>
 </div>
 
-<div id="tend">&nbsp;
+<div id="nan">&nbsp;
 </div>
+
+<script>
+let ppp = "";
+hr2.onclick = e => { ppp += (ppp & 0x20)? nan.id++ :  "1"; }
+</script>
 
 
 # Notebook
